@@ -13,6 +13,10 @@ import { Input } from 'element-ui';
 
 export default {
     name: 'CustomerInput',
+    components: {
+        ElInput: Input,
+        ElButton: Button
+    },
     data() {
         return {
         name: '',
